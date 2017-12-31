@@ -8,6 +8,6 @@ attr_accessor :author,:title
   end
 
   def author_name
-    @author_name
+    self.author.name
   end
 end
